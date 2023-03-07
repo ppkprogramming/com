@@ -45,10 +45,10 @@ nav a{
     padding: 20px 10px 14px 20px;
     text-decoration: none;
 }
-/*
+
 nav a:hover{
-    background-color:blue;
-    color: yellow;
+    background-color:rgb(255, 0, 0);
+    color: rgb(17, 17, 17);
 }
 
 nav ul {
@@ -69,8 +69,8 @@ nav a {
 }
 
 nav a:hover {
-	background-color: #f0f0f0;
-}*/
+	background-color: #2404f2;
+}
 
 /* Hero Section Styles */
 #hero {
