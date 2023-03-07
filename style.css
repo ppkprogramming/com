@@ -1,0 +1,182 @@
+/* Reset Styles */
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+/* Global Styles */
+body {
+	font-family: Arial, sans-serif;
+	line-height: 1.5;
+	color: #333;
+}
+
+a {
+	text-decoration: none;
+	color: #333;
+}
+
+ul {
+	list-style: none;
+}
+
+
+/* Header Styles */
+header {
+	background-color: #f3f7f9;
+	
+	background-color: 0 2px 4px rgba(200, 8, 8, 0.1);
+	padding: 20px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 999;  
+}
+nav{
+    overflow: hidden;
+    background-color: #222;
+
+}
+nav a{
+    float: left;
+    color :#f1f1f1;
+    padding: 20px 10px 14px 20px;
+    text-decoration: none;
+}
+/*
+nav a:hover{
+    background-color:blue;
+    color: yellow;
+}
+
+nav ul {
+	display: flex;
+}
+
+nav li {
+	margin-right: 20px;
+}
+
+nav li:last-child {
+	margin-right: 0;
+}
+
+nav a {
+	display: block;
+	padding: 10px;
+}
+
+nav a:hover {
+	background-color: #f0f0f0;
+}*/
+
+/* Hero Section Styles */
+#hero {
+	background-color: #d7d3d4;
+	padding: 100px 20px;
+	text-align: center;
+}
+
+#hero h1 {
+	font-size: 3em;
+	margin-bottom: 20px;
+}
+
+#hero p {
+	font-size: 1.5em;
+	margin-bottom:
+20px;
+}
+
+.cta {
+display: inline-block;
+padding: 10px 20px;
+background-color: #333;
+color: #fff;
+border-radius: 5px;
+margin-top: 20px;
+}
+
+.cta:hover {
+background-color: #666;
+}
+
+/* Courses Section Styles */
+#courses {
+padding: 100px 20px;
+text-align: center;
+}
+
+#courses h2 {
+font-size: 2.5em;
+margin-bottom: 20px;
+}
+
+#courses ul {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+
+#courses li {
+margin: 20px;
+max-width: 300px;
+}
+
+#courses img {
+max-width: 100%;
+}
+
+#courses h3 {
+font-size: 1.5em;
+margin-top: 10px;
+margin-bottom: 5px;
+}
+
+#courses p {
+font-size: 1em;
+}
+
+/* About Section Styles */
+#about {
+background-color: #f0f0f0;
+padding: 100px 20px;
+text-align: center;
+}
+
+#about h2 {
+font-size: 2.5em;
+margin-bottom: 20px;
+}
+
+#about p {
+font-size: 1.5em;
+margin-bottom: 20px;
+}
+<object data="path/to/your/pdf/file.pdf" type="application/pdf" width="100%" height="100%">
+  <p>Alternative text - include a link <a href="path/to/your/pdf/file.pdf">to the PDF!</a></p>
+</object>
+
+/* Footer Styles */
+footer {
+background-color: #333;
+color: #fff;
+padding: 20px;
+text-align: center;
+}
+
+footer p {
+font-size: 1.2em;
+margin-bottom: 10px;
+}
+
+footer a {
+color: #fff;
+}
+
+footer a:hover {
+color: #f0f0f0;
+}
+
